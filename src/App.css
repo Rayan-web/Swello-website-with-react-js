@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.mainText{
+    @apply font-semibold text-3xl tracking-widest py-2 font-Pop ;
+} 
+.secText{
+    @apply text-sm text-gray-300 tracking-wider font-Pop;
+}
+.btn{
+    @apply rounded-full bg-Pinke text-pinkText max-w-fit p-2;
+}
+
+/* *{
+    background-color: #0e0e1a;
+} */
+.bg{
+    /* background-image: url('./images/back.png'); */
+    background-color: #0e0e1a;
+}
+.bg-test{
+    
+    background: linear-gradient(
+   rgba(255, 255, 255, 0.5));
+    border-bottom: 1.2px solid rgba(255,255,255,0.1);
+    border-radius: 5px; 
+    box-shadow:0 4px 30px rgba(0,0,0,0.1); 
+     backdrop-filter: blur(30px);
+}
+/* .bg-test::before{
+    background-color: white;
+} */
+@media screen and (max-width: 600px){
+    #hidden{
+position: absolute;
+left:  0px;
+top: 80px;
+margin-top: 10px;
+height: 230px;
+width: 100%;
+display: flex;
+flex-direction: column;
+}
+}
+
+.shodow{
+    box-shadow: #f956ff 0px 20px 60px -7px;
+}
+.box{
+
+    width: 700px;
+    height: 200px;
+    background-color: #181725;
+    display: inline-block;
+    border-radius: 10px;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+    
+}
+.box-2{
+
+    width: 500px;
+    height: 200px;
+    background-color: #181725;
+    display: inline-block;
+    border-radius: 10px;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+    
+}
+.img{
+    /* transition: 2s all ease-out; */
+    top:410px;    
+}
+.card{
+    transition: 2s all ease-out;
+}
+.text{
+    font-size: 14px;
+    font-weight: 100;
+    /* line-height: -30px; */
+}
+.card-input{
+    width: 700px;
+    height: 300px;
+    background-color: #181725;
+    display: inline-block;
+    border-radius: 10px;
+}
+.label{
+    position: absolute;
+    right: 1109px;
+    top: 978px;
+    
+}
+
+
+
+.right-A{
+    right: 528px ;
+    bottom: -20px ;
+}
+.left-A{
+    left: 551px;
+    bottom: -10px;
+}
+.left{
+    left: 218px;
+    bottom: 178px;
+    
+}
+.right{
+    right: 243px;
+    bottom: 183px;
+}
+
+
+.box-3{
+
+    width: 400px;
+    height: 100px;
+    background-color: #181725;
+    display: inline-block;
+    border-radius: 10px;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+    
+}
+.box-4{
+
+    width: 100%;
+    height: 250px;
+    background-color: #181725;
+    display: inline-block;
+    border-radius: 10px;
+    border-top: 1px solid white;
+    margin-bottom: 0px;
+
+    
+}
+.logo-1{
+    position: absolute;
+    left: 298px;
+    
+}
+@media all and (max-width:767px) {
+    .logo-1{
+    display: none;
+    
+}
+}
