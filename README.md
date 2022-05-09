@@ -1,4 +1,4 @@
-Hello Devs,this is Simple responsive website with react js. <bold> Feel free to ruse the code</bold>
+Hello Devs,this is Simple responsive website with react js. <bold> Feel free to reuse the code</bold>
 
 
 
